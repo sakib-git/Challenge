@@ -1,0 +1,23 @@
+@media  screen and (max-width:460px) {
+.saki{
+    font-size: 6px;
+}
+h2{
+    font-size: 12px;
+}
+.main2{
+    width: 350px;
+    height: 300px;
+}
+.main2{
+    right: 70px;
+    position: relative;
+}
+input{
+    font-size: 8px;
+}
+button{
+    font-size: 10px;
+}
+
+}

@@ -1,0 +1,108 @@
+*{  font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: calc(100% - 60px);
+    background:#edf8ff ;
+    padding: 100px;
+}
+h3:hover{
+    color: blue;
+   
+}
+h2{
+    font-size: 35px;
+}
+
+
+ li{
+   font-style: none;
+    display: inline-block;
+    margin-left: 4px;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 0 rgb(71, 71, 71);
+}
+li:hover{
+    background: black;
+    color: #fff;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    height: 60px;
+    align-items: center;
+    padding: 0 20px;
+}
+.main2{
+    height:70vh;
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   justify-items: center;
+   border: 1px solid black;
+   background: #fff;
+   border-radius: 6px;
+   
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 6px 6px 0;
+}
+.saki{
+    padding:0 30px; 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.riya{
+    width: 50%;
+    height: 100%;
+}
+input{
+ margin: 15px 0;
+ width: 100%;
+ outline: none;
+ border: none;
+ border-bottom: 2px solid #000;
+ padding: 5px;
+ border-radius: 5px;
+}
+input:focus{
+    outline: 1px solid #ddd;
+}
+button{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    background: #1d1d1d;
+}
+p{ width: 80%;
+    margin: 15px 0 ;
+}
